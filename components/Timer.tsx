@@ -21,7 +21,7 @@ export default function Timer(props: TimerProps) {
                     '#ff5555',
                 ]}
                 colorsTime={[
-                    7, 5, 0
+                    6, 3, 0
                 ]}
             >
                 {({ remainingTime }) => remainingTime}

@@ -19,7 +19,7 @@ const questions: QuestionModel[] = [
     new QuestionModel(3, 'Qual o país com mais pirâmides no mundo?', [
         AnswerModel.incorrect('Egito'),
         AnswerModel.incorrect('México'),
-        AnswerModel.incorrect('peru'),
+        AnswerModel.incorrect('Peru'),
         AnswerModel.correct('Sudão'),
     ]),
 
@@ -30,7 +30,7 @@ const questions: QuestionModel[] = [
         AnswerModel.correct('Biologia'),
     ]),
 
-    new QuestionModel(5, 'Qual o cientista que inventou a formula E=mc²?', [
+    new QuestionModel(5, 'Qual cientista inventou a formula E=mc²?', [
         AnswerModel.incorrect('Stephen Hawking'),
         AnswerModel.incorrect('Nikola Tesla'),
         AnswerModel.incorrect('Marie Curie'),
@@ -65,7 +65,7 @@ const questions: QuestionModel[] = [
         AnswerModel.correct('Jamaica'),
     ]),
 
-    new QuestionModel(10, 'Em qual ano os portugueses Pero Vaz de Caminha e Pedro Álvares Cabral chegaram ao Brasil', [
+    new QuestionModel(10, 'Em qual ano o português Pedro Álvares Cabral chegou ao Brasil', [
         AnswerModel.incorrect('1703'),
         AnswerModel.incorrect('2010'),
         AnswerModel.incorrect('1100'),
