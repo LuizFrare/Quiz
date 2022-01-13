@@ -1,0 +1,94 @@
+.answer {
+    display: flex;
+    height: 100px;
+    margin: 12px;
+    width: 70%;
+    min-width: 500px;
+    perspective: 1500px;
+}
+
+.AnswerContent {
+    display: flex;
+    flex: 1;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.front, .back {
+    position: absolute;
+    display: flex;
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.front {
+    background-color: white;
+    color:#444;
+    align-items: center;
+    border-radius: 11px;
+    padding: 15px;
+    -webkit-box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+    -moz-box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+    box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+    transition: all .1s ease-in-out;
+}
+
+.front:hover {
+    transform: scale(1.02);
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.back > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-radius: 11px;
+    -webkit-box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+    -moz-box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+    box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+}
+
+.correct {
+    background-color: #16aa62;
+}
+
+.incorrect {
+    background-color: #df4a4c;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 20px;
+    color: rgb(240, 240, 240);
+    text-shadow: 2px 2px 0px rgba(68,68,68,0.18);
+}
+
+.textContent{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.value {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.revealedAnswer.AnswerContent {
+    transform: rotateY(180deg);
+}

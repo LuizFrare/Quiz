@@ -1,0 +1,23 @@
+.stats {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}
+
+.value {
+    display: flex;
+    height: 11rem;
+    width: 11rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6rem;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 0px rgba(68,68,68,0.18);
+}
+
+.description {
+    color: #fafafa;
+    font-weight: 200;
+    margin-top: 1.2rem;
+}

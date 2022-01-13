@@ -1,0 +1,19 @@
+.btn{
+    background-color: #3e4154;
+    color: white;
+    border-radius: 8px;
+    font-weight: 200;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+    -moz-box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+    box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+}
