@@ -1,4 +1,4 @@
-# O melhor quiz do mundo!
+# O melhor quiz de todos os tempos!
 
 <img src="assets/logo.png" alt="Logo" width="400px">
 
