@@ -7,7 +7,7 @@ export default function Rules() {
            <div className={styles.container}>
                 <h1>Regras do Quiz</h1>
                 <li>
-                    Há 10 perguntas no teste
+                    Há 10 perguntas no questionário
                 </li>
                 <li>
                     O tema das interrogações é variado

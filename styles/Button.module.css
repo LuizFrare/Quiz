@@ -17,3 +17,10 @@
     -moz-box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
     box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
 }
+
+@media screen and (min-width: 375px) and (max-width: 480px ) {
+	.btn{
+        margin-top: 6rem;
+        margin-left: 5.3rem;
+    }
+}

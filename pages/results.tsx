@@ -11,15 +11,17 @@ export default function Result() {
     const correct = +router.query.correct
     const percent = Math.round((correct / total) * 100)
 
-    return(
+    return (
         <div className={styles.result}>
             <h1>Resultado</h1>
-            <div style={{display:"flex"}}>
-                <Stats description="Perguntas" bgColor='#FFE1AF' value={total}/>
-                <Stats description="Corretas" bgColor='#C6D57E' value={correct}/>
-                <Stats description="Percentual" bgColor='#A2CDCD' value={`${percent}%`}/>
+            <div className={styles.statsBox}>
+                <Stats description="Perguntas" bgColor='#ff79c6' value={total}/>
+                <Stats description="Corretas" bgColor='#50fa7b' value={correct}/>
+                <Stats description="Percentual" bgColor='#8be9fd' value={`${percent}%`}/>
             </div>
-            <Button href="/" text="Voltar para a página inicial"/>
+            <div className={styles.btn}>
+                <Button  href="/" text="Voltar para a página inicial"/>
+            </div>
         </div>
     )
 }

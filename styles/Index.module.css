@@ -103,7 +103,7 @@
 
 /* media */
 
-@media screen and (min-width: 320px) and (max-width: 480px ) {
+@media screen and (min-width: 375px) and (max-width: 480px ) {
 	.text{
         display: flex;
         text-align: center;
@@ -111,7 +111,7 @@
     }
     
     .title {
-        font-size: 5rem;
+        font-size: 4rem;
         margin: 0;
         font-weight: 900;
         color: #f1fa8c;
@@ -119,9 +119,24 @@
     }
     
     .subtitle {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         margin-top: 0.5rem;
         font-weight: lighter;
         color: #ff79c6;
+    }
+
+    .play {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .rules {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .buttons{
+        margin-bottom:12rem;
+        margin-top: 2rem;
     }
 }

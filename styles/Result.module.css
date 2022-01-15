@@ -5,4 +5,26 @@
     justify-content: center;
     height: 100vh;
     font-size: 2rem;
+    margin-top: -2rem;
+}
+
+.result > h1 {
+    color:#f1fa8c
+}
+
+.statsBox{
+    display: flex;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px ) {
+
+    .statsBox{
+        display: block;
+    }
+
+    .btn{
+        margin-top: -5rem;
+        margin-right: 5.5rem;
+    }
 }
