@@ -1,3 +1,7 @@
+.result > h1 {
+    font-size: 2rem;
+}
+
 .stats {
     display: flex;
     flex-direction: column;
@@ -20,4 +24,30 @@
     color: #fafafa;
     font-weight: 200;
     margin-top: 1.2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px ) {
+	.stats {
+        display: flex;
+        flex-direction: column;
+        margin: 0.6rem;
+        align-items: center;
+    }
+    
+    .value {
+        display: flex;
+        height: 6rem;
+        width: 6rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6rem;
+        font-size: 2rem;
+        text-shadow: 2px 2px 0px rgba(68,68,68,0.18);
+    }
+    
+    .description {
+        color: #fafafa;
+        font-weight: 200;
+        margin-top: 1.2rem;
+    }
 }

@@ -92,3 +92,37 @@
 .revealedAnswer.AnswerContent {
     transform: rotateY(180deg);
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px ) {
+	.front, .back {
+        position: absolute;
+        display: flex;
+        height: 85%;
+        width: 80%;
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    
+    .front {
+        background-color: white;
+        color:#444;
+        align-items: center;
+        border-radius: 11px;
+        padding: 15px;
+        -webkit-box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+        -moz-box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+        box-shadow: inset -2px -2px 0px 1px rgba(0,0,0,0.12);
+        transition: all .1s ease-in-out;
+    }
+
+    .answer {
+        display: flex;
+        height: 100px;
+        margin: 0.8rem;
+        width: 70%;
+        min-width: 500px;
+        perspective: 1500px;
+        
+    }
+}
