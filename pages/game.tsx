@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import Quiz from '../components/Quiz'
 import QuestionModel from '../model/question'
 
-const BASE_URL = 'http://localhost:3000/api'
+const BASE_URL = 'https://quiz-fawn.vercel.app'
 
 export default function Game() {
   const router = useRouter()
